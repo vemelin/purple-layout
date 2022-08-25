@@ -1,0 +1,71 @@
+.purple-bar .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280, 255, 255, 255' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+  }
+  .purple-bar {
+    height: 63px;
+    vertical-align: text-bottom;
+    color: #fff;
+    background: linear-gradient(90deg, #32255E 37.09%, #68368B 99.98%, #194FA1 105.58%, #1A99B0 106.15%);
+    box-shadow: 0px 2px 15px rgba(55, 11, 85, 0.25);
+  }
+  .purple-bar .user-nav {
+    text-decoration: none;
+    float: right;
+    display: block;
+    padding: 0 5px 0 0;
+  }
+  .purple-bar .user-nav li {
+    float: left;
+    display: block;
+  }
+  .purple-bar .app-name {
+    display: block;
+    margin: 0 auto;
+    padding: 15px 0 0 10px;
+    float: left;
+    height: 63px;
+    font: 300 25px Stolzl; 
+  }
+  .user-nav li a {
+    cursor: pointer;
+    float: left;
+    margin: auto;
+    width: 49px;
+    height: 63px;
+    text-indent: -3000px;
+    display: block;
+  }
+  .user-nav .launcher-app {
+    background: url('../assets/purple_bar/more-apps.svg') center 20px/20px no-repeat;
+  }
+  .user-nav .settings {
+    background: url('../assets/purple_bar/settings.svg') center 20px/20px no-repeat;
+  }
+  .user-nav .notification {
+    background: url('../assets/purple_bar/notifications_icon.svg') center 20px/20px no-repeat;
+    opacity: 0.7;
+  }
+  .user-nav .user-info-bar {
+    background: url('../assets/purple_bar/user_avatar.svg') center no-repeat;
+  }
+  .user-nav .co-switcher {
+    background: url('../assets/purple_bar/company_avatar.svg') center no-repeat;
+  }
+  .purple-bar .shish-kabob {
+    float: left;
+    margin: 0 auto;
+    padding: 20px 0 20px 45px;
+    opacity: 0.7;
+    text-indent: -3000px;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+    background-color: transparent;
+    border: 0px solid transparent;
+    background: url('../assets/purple_bar/humburger-icon.svg') 50% 47% / 20px 20px no-repeat;
+  }
